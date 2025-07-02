@@ -1,1 +1,78 @@
-html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfred Command</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #0c0c0e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1em;
+    }
+    .section {
+      background-color: #1a1a1d;
+      border-radius: 12px;
+      padding: 1em;
+      margin-bottom: 1em;
+      width: 100%;
+      max-width: 500px;
+    }
+    .section h2 {
+      margin-top: 0;
+      font-size: 1.2em;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5em;
+    }
+    .tile {
+      margin-top: 0.5em;
+      padding: 0.5em;
+      background-color: #2a2a2d;
+      border-radius: 8px;
+      font-size: 0.95em;
+    }
+    .alert {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h2>📍 Weather & Advisory</h2>
+    <div class="tile alert">Severe Thunderstorm Watch for Monmouth County until 9 PM.</div>
+    <div class="tile">Today: 90°F, humid, late storms expected.</div>
+    <div class="tile">Wednesday: Cooler, some showers. High: 79°F.</div>
+  </div>
+
+  <div class="section">
+    <h2>📈 Markets & Finance</h2>
+    <div class="tile">S&P 500 (SPY): $617.82, flat</div>
+    <div class="tile">Apple (AAPL): $207.66, +1.21%</div>
+  </div>
+
+  <div class="section">
+    <h2>🎬 Trailers & Releases</h2>
+    <div class="tile">*Demon Slayer: Infinity Castle* trailer out now</div>
+    <div class="tile">*Jurassic World Rebirth* opens July 2</div>
+    <div class="tile">*I Know What You Did Last Summer* - July 18</div>
+  </div>
+
+  <div class="section">
+    <h2>📺 Shows & Premieres</h2>
+    <div class="tile">*Summer I Turned Pretty* S3 - July 16</div>
+    <div class="tile">*Foundation* S3 - July 11 (Apple TV+)</div>
+    <div class="tile">*Dexter: Resurrection* - July 11</div>
+  </div>
+
+  <div class="section">
+    <h2>🤖 Alfred Advice</h2>
+    <div class="tile">“Prepare for storms tonight – check traffic before driving. Relax with *Paradise* on Hulu or the new *Demon Slayer* trailer.”</div>
+  </div>
+</body>
+</html>
